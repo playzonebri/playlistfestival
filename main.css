@@ -1,0 +1,75 @@
+
+body{
+    height: 120vh;
+}
+
+.navnon{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.textjalan{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #D1CDB2;
+    font-weight: bold;
+}
+
+.textjalan svg{
+    color: #1C56A0;
+}
+
+.coverform{
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    background-color: #eaeaea;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.form h5{
+    border-bottom: 1px solid #ddd;
+    color: #1C56A0;
+}
+
+.inp{
+    margin-bottom: 10px;
+}
+
+.inp input{
+    width: 100%;
+    padding: 9px;
+    border: none;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 13px rgba(0,0,0,0.1);
+}
+
+input:focus{
+    border: 1px solid red;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #1C56A0;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 13px rgba(0,0,0,0.4);
+    border: 1px solid #1D80A9;
+    margin-top: 18px;
+}
+
+footer img{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
